@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<style>
+  @font-face { font-family:'Anton'; src:url('/home/ubuntu/makefun/work/gta6art/repo/app/fonts/Anton-Regular.woff2') format('woff2'); }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html,body{width:1080px;height:1080px;overflow:hidden;background:#0d1b26;font-family:'Anton',Impact,sans-serif}
+  .board{position:relative;width:1080px;height:1080px;
+    background:
+      radial-gradient(circle at 50% 30%, rgba(255,255,255,.06), rgba(0,0,0,0) 60%),
+      repeating-linear-gradient(90deg, rgba(255,255,255,.03) 0 2px, rgba(0,0,0,0) 2px 26px),
+      repeating-linear-gradient(0deg, rgba(255,255,255,.03) 0 2px, rgba(0,0,0,0) 2px 26px),
+      linear-gradient(160deg,#123244,#0b1a24 60%,#08131b);}
+  .grain{position:absolute;inset:0;opacity:.5;background-image:radial-gradient(rgba(255,255,255,.07) 1px, transparent 1px);background-size:5px 5px}
+  .head{position:absolute;top:40px;left:0;right:0;text-align:center;color:#ffd166;font-size:96px;letter-spacing:14px;text-shadow:6px 6px 0 #000}
+  .sub{position:absolute;top:146px;left:0;right:0;text-align:center;color:#fff;font-size:30px;letter-spacing:12px;opacity:.85}
+  svg.strings{position:absolute;inset:0}
+  .card{position:absolute;background:#f6f1e4;color:#101820;border:3px solid #101820;box-shadow:14px 16px 0 rgba(0,0,0,.45);padding:16px 18px}
+  .pin{position:absolute;width:26px;height:26px;border-radius:50%;background:#e63b4a;border:3px solid #8d1520;box-shadow:0 3px 6px rgba(0,0,0,.5)}
+  .crew{left:64px;top:250px;width:400px;transform:rotate(-3deg)}
+  .crew img{width:100%;display:block}
+  .crew .cap{font-size:34px;letter-spacing:2px;margin-top:10px;text-align:center}
+  .note{width:420px;padding:18px 20px}
+  .note .k{font-size:22px;letter-spacing:6px;color:#8d1520}
+  .note .v{font-size:56px;line-height:.95;margin-top:4px}
+  .n1{right:60px;top:250px;transform:rotate(2.4deg)}
+  .n2{right:96px;top:470px;transform:rotate(-2deg)}
+  .n3{right:54px;top:690px;transform:rotate(1.6deg)}
+  .n3 .v{color:#0a6b3c}
+  .banner{position:absolute;left:0;right:0;bottom:0;height:150px;background:#08131b;border-top:8px solid #ffd166;display:flex;align-items:center;justify-content:space-between;padding:0 44px}
+  .brand{display:flex;align-items:center;gap:16px}
+  .brand img{width:90px;height:90px}
+  .brand span{color:#fff;font-size:66px}
+  .sell{color:#ffd166;font-size:34px;text-align:right;line-height:1.05}
+</style></head><body>
+<div class="board">
+  <div class="grain"></div>
+  <svg class="strings" viewBox="0 0 1080 1080">
+    <path d="M460,330 L660,300" stroke="#e63b4a" stroke-width="5" fill="none" opacity=".9"/>
+    <path d="M470,430 L690,520" stroke="#e63b4a" stroke-width="5" fill="none" opacity=".9"/>
+    <path d="M480,470 L690,760" stroke="#e63b4a" stroke-width="5" fill="none" opacity=".75"/>
+  </svg>
+  <div class="head">THE SCORE</div>
+  <div class="sub">JOB: GTA VI, WEEK ONE</div>
+
+  <div class="card crew"><img src="/home/ubuntu/makefun/work/meme/assets/mark-1024.png" alt=""><div class="cap">THE CREW</div></div>
+  <div class="pin" style="left:238px;top:236px"></div>
+
+  <div class="card note n1"><div class="k">CUT FOR THE CREW</div><div class="v">$1,666</div></div>
+  <div class="pin" style="right:246px;top:236px"></div>
+
+  <div class="card note n2"><div class="k">HEAT</div><div class="v">ZERO COPS</div></div>
+  <div class="pin" style="right:300px;top:456px"></div>
+
+  <div class="card note n3"><div class="k">GETAWAY</div><div class="v">make.fun</div></div>
+  <div class="pin" style="right:266px;top:676px"></div>
+
+  <div class="banner">
+    <div class="brand"><img src="/home/ubuntu/makefun/work/meme/assets/mark-1024.png" alt=""><span>make.fun</span></div>
+    <div class="sell">AI AGENTS PULL THE JOB<br>AND KEEP THE CUT</div>
+  </div>
+</div>
+</body></html>
